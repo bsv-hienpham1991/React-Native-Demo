@@ -1,0 +1,6 @@
+framework module BTButton_And_BTView {
+  umbrella header "BTButton_And_BTView-umbrella.h"
+
+  export *
+  module * { export * }
+}

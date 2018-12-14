@@ -1,0 +1,1598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+/* Begin PBXBuildFile section */
+		03203A223C49BFCE4C0FD79F9C6B5B93 /* BTButton_And_BTView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6B5B52DAD6B51336B1BCE98191B0842 /* BTButton_And_BTView.framework */; };
+		03C0EF6026368F606BCC459DDDAB6D14 /* ListStaticBubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E343CAD59AB038DD67258CA8F86F118 /* ListStaticBubbleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		066B7D66EC460E534F52FC837BB61481 /* ListBubbleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683A2F25F12C1F43994073EF279BE719 /* ListBubbleView.xib */; };
+		0BC431239929C2AA7846044D5A804264 /* MyFaveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB47E77598DB56D53F63547695A51DF /* MyFaveButton.m */; };
+		0EBF616CAF71844E1A5DB10564D80EDF /* Ring.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CB48EFF8DBF4F22FAF24F0043F751B /* Ring.m */; };
+		16136940C8424853407FD6EE62C96D6D /* BubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1924658E5F85B8656F57D3F242094DDA /* BubbleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16BBF353D294A8AE2F0C75BD3B6596D0 /* Spark.h in Headers */ = {isa = PBXBuildFile; fileRef = 30B73FD75A12E9A7AE7944811AA57F30 /* Spark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1934964613BA728B6E8E1AC65597ABBA /* BubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDAB1BC6B9379919DC793D198FE08B8 /* BubbleView.m */; };
+		1E05FB3D366C358BB87D902D81CE1586 /* ChildListStaticBubbleViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553A12767C18A6F2A35CC9B3538A3E7 /* ChildListStaticBubbleViewManager.m */; };
+		1F8EE8EBC6A9389D78ACA88AB5171131 /* PureLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B982774D099456C47A3F86A35EE00A /* PureLayout-dummy.m */; };
+		27F2222BA0D55561BAEF7B65C1105DD2 /* SVPullToRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D821D389B91B80F5E46012B107BF9E71 /* SVPullToRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CA6F211821C0F62BD444F0DF157F0C1 /* BTView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3724FBF1615371DCE040E6C3D680D984 /* BTView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DF5249F9E5157D2E978CB7C6C948066 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516CACC04157E9DE7879767A4F57871F /* Foundation.framework */; };
+		33C757DB06BAEDA91E2F00459ED2C390 /* BTButton_And_BTView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B2E13C9986CFD902BD82400F505696F /* BTButton_And_BTView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3952AF7B3FF6EEF4A7239A6E9BED68AA /* Pods-BubbleListView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA4A1BF75004C296F4DBEA6EA67F6B6 /* Pods-BubbleListView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40D3323EA491B4696F83EF1900E61C8E /* BubbleListView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E88FB980F39D432A58EB326549982C96 /* BubbleListView-dummy.m */; };
+		41CD4D132960F2854E46BB135A59827B /* BTButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7268B58070321FBCB316FC10F096B883 /* BTButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4353B59FC7BC489F4B83A8E24ABC27A2 /* ChildListDynamicBubbleViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 23B02E5FEC05FB040A929D4F11CA4910 /* ChildListDynamicBubbleViewManager.m */; };
+		43D7D91B1D02B4C488623E9F90A6EB9F /* ALView+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 58612E91A6DDEFBFC648E59FFE08C576 /* ALView+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4552574B2196677554E47011DF9F6FF8 /* ChildListBubbleViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FC22138B61F98EABF118630C937D81 /* ChildListBubbleViewManager.m */; };
+		47D2F73EA633EA1572F2D5C9074DF047 /* PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F80CD16E5E2810E089C0089AA44324B /* PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E3A7927A820FF4CA1E71744CA6ACF2B /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 85171DB9D917ED02E470BF242CF9BC9D /* NSArray+PureLayout.m */; };
+		50E22A781CCFA2E3C04942DA7103A55B /* BTView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDB74077E7297A3EC1159179D996CEA /* BTView.m */; };
+		5E326FC7A5D9518E8104A6E000B1838E /* ListStaticBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACE1008894058326D434253AF1C6FC4 /* ListStaticBubbleView.m */; };
+		6D91A9D104F51CD45B803881056447CD /* Pods-BubbleListView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DED81B84DC1F579DD258A90B644ED360 /* Pods-BubbleListView_Example-dummy.m */; };
+		769A8C37A97DA058FC93B3493F0E47D9 /* Easing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B4CF7EEF73B211760C500062132C0A0 /* Easing.m */; };
+		7EDE62C2F35CD03D22AD503CC333BB91 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0E65DB44090EFB4675B7AD9BF3BC405F /* README.md */; };
+		854F9371181F604F65FBCD184421F375 /* Pods-BubbleListView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64E542A87184EE0AAD022C4C6B59E260 /* Pods-BubbleListView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86E3CB0512FA7D6752144DB2843C3D7A /* NSLayoutConstraint+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D25B8474E41C4F704E2824715DC608D /* NSLayoutConstraint+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90B9D4A0C822FD35F7CDFA149F288E3A /* BTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 86211183108246B601FA4D732A5501F0 /* BTButton.m */; };
+		97304570F590353697875F7F6283B842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516CACC04157E9DE7879767A4F57871F /* Foundation.framework */; };
+		98CBB896C0C6EC70A6F80BCE374CEC85 /* Pods-BubbleListView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD83BC629559C81E029E0AF0319E5A7 /* Pods-BubbleListView_Tests-dummy.m */; };
+		9BE027A0089B88B4133E3C5EF45C91A4 /* ChildListStaticBubbleViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 32F93FDD57030A73425C5E55A7391EB2 /* ChildListStaticBubbleViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E332026CF0BB22E2F00972983380A0A /* SVPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 27E9DF56706D36A67EE142090D929A65 /* SVPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A03251EFCA6D66A9D5C4AB2F33FE2FA0 /* NSArray+PureLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A3BA488B8AC7059996B9BB645F811F9 /* NSArray+PureLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0C8F0523773EA0FA56FC539880B17CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516CACC04157E9DE7879767A4F57871F /* Foundation.framework */; };
+		A26E1E10C30398D0E85C361E14F08754 /* UIColor+DarkerColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA3F87056BC9CD85215CC6F61D927B7 /* UIColor+DarkerColor.m */; };
+		A2C9D02A133E7B5727BA8E7A69E7C54A /* ChildListDynamicBubbleViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CA245B2F35F1A9683ECA00FB22809087 /* ChildListDynamicBubbleViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8272F02858FDDB84FFAC51638D0CA1D /* ChildListBubbleViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5130D9D672266DAF8011B93A88214F14 /* ChildListBubbleViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4438BD965392244D3B46F9554D5A5F /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A2AF939E4A392B1377F588200C3567A7 /* ALView+PureLayout.m */; };
+		AAC3F980E2910F6411B83A156EAB7238 /* Ring.h in Headers */ = {isa = PBXBuildFile; fileRef = 243D9A5EB1579616C0101A211E848B9C /* Ring.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABB4EFD28E35A038DD658673160370DB /* BTButton_And_BTView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 490F8BEC21BCDBC3771A717D34430353 /* BTButton_And_BTView-dummy.m */; };
+		B21801B5C5C0A7150E1F31B151254473 /* PureLayoutDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 42BACECE6F2B9C98759EFFDD3E54908A /* PureLayoutDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B232DAD82B590CFF0C0097268A8343EF /* BubbleListView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 13DCE45A6F75C202435DC652CAB36531 /* BubbleListView.bundle */; };
+		B622B71EADC0F2459B3257FAB00C14BF /* MyFaveButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3D7B219E52AC6203D2227D4F1DB398 /* MyFaveButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B66D1C7C38ED9B89506DCE8AC8D92050 /* SVPullToRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 924F7D5411066DBDD6C469213263E55E /* SVPullToRefresh-dummy.m */; };
+		B9A458044489A55E7B7CD786D63C4B84 /* LICENSE in Sources */ = {isa = PBXBuildFile; fileRef = 15C3DF54B48ADBDFAE98045E31DCCE1F /* LICENSE */; };
+		BA1FD946F2165DCB01A2A7BA15CFF4CF /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = D66334A09C117604C448B04DA7821CA5 /* UIScrollView+SVPullToRefresh.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BC8141C8EB67989A440AE89E9DF9ED98 /* PureLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51EFE4C07B774B24EA02804C9822F696 /* PureLayout.framework */; };
+		BD84D81E399457D8602682AC924507C7 /* ListDynamicBubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = B11577736F2ED6F00F93AE5E887AA657 /* ListDynamicBubbleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFB1111E653BF34B57873960863E7AFE /* Spark.m in Sources */ = {isa = PBXBuildFile; fileRef = C827982EB080C2351055EFDBB36ADFF8 /* Spark.m */; };
+		C39CB82F4361C2AF2DECA86508FD94CA /* ListBubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE668AC74C6BA502D6023787A111E64C /* ListBubbleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3FC2542159758790CE3D9E243F8BF3C /* ListBubbleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 683A2F25F12C1F43994073EF279BE719 /* ListBubbleView.xib */; };
+		C5DBF8FBA6FECAD45007CA545B9FB1ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A890F3CB44BA59BABA30EA0BFA4619 /* QuartzCore.framework */; };
+		C8304FFAEBCED76136FD62639AF3A744 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516CACC04157E9DE7879767A4F57871F /* Foundation.framework */; };
+		C9CD1D26D06C4925A27ECB9F98B9ACC1 /* ListDynamicBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FED55B9890F2AE4796D2585129B7B7D /* ListDynamicBubbleView.m */; };
+		CC55C3DAFFF54BA4A766C308A164778C /* PureLayout+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = D323A7351251AD3D488017B43D95AD26 /* PureLayout+Internal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCA713AF4FC91F750E67060A1C9A093F /* ListBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00986F89DA7E626E67B0C16BA4C5D2FB /* ListBubbleView.m */; };
+		CDB381BEEC94322CD415A14CE6025628 /* PureLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D8A18CF07B93600637D3125363623E /* PureLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF5C6B4010EB1C311E11057B92EF6312 /* UIScrollView+SVInfiniteScrolling.h in Headers */ = {isa = PBXBuildFile; fileRef = BE05AA13D34C4412A85EB0A85C3C72C4 /* UIScrollView+SVInfiniteScrolling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1CAA634F7FEA08DBF0ECA00A4D9804E /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = D3629C0BAB195D283DE64764EE780621 /* UIScrollView+SVInfiniteScrolling.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D6629B51515DFCB62B86D5B668BBAAE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516CACC04157E9DE7879767A4F57871F /* Foundation.framework */; };
+		D784563260740245CE6B8D06CF867184 /* BubbleListView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D1C42A82AED58146F632AA6EABBF4DBA /* BubbleListView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7FE83C99375B7FA5EAD22407483ADEF /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A61FF9CA9F516E345D31A6C2654482 /* NSLayoutConstraint+PureLayout.m */; };
+		DAE5C70FC7F283E8750EBA8A18422757 /* UIScrollView+SVPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = BF26A457746C3D521BC9E3C489695B5F /* UIScrollView+SVPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5DB078E9DFEA253BD41CF67471F518E /* UIColor+DarkerColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C04FB473779619E047AEC11E2FB61B /* UIColor+DarkerColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA4C0397F9D5C8F4799F7F13547694EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516CACC04157E9DE7879767A4F57871F /* Foundation.framework */; };
+		FC942275CA516CBDA2534F8B328E0BBF /* Easing.h in Headers */ = {isa = PBXBuildFile; fileRef = A257861085ACDC15FC674B833FCFAC49 /* Easing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75FE902AC9354F18B520072E /* libRNBubbleListView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F34CF87188A44CC9A7DAAE6F /* libRNBubbleListView.a */; };
+		E3BB9064247F4ED38188EF97 /* libRNMyLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ECF783B4D7F49C4BF12A1EC /* libRNMyLibrary.a */; };
+		7BBCAB831E354B6884ADD91E /* libRCTCustomModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6B3C87458EA407792A6EEC0 /* libRCTCustomModule.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A7534A360AAF30DD5EB1D00B85CBFFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8FF58C2672C83ABFEC69140F752265;
+			remoteInfo = BTButton_And_BTView;
+		};
+		62708E989806A3082FC13BD85B37D720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D00EDE06B75079FF739800D5D435FB3;
+			remoteInfo = PureLayout;
+		};
+		7FFCD9B8DBC51E76A06978AE230476D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEDFCA79F274C1DF023FE7F951C9E1F4;
+			remoteInfo = SVPullToRefresh;
+		};
+		8848E4D411904342AA3EC939453A15E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46B42CC8B395CBFF22B05247F4E9C562;
+			remoteInfo = BubbleListView;
+		};
+		D1DF1789D9AD39C80CAC8EF2E969F439 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB8FF58C2672C83ABFEC69140F752265;
+			remoteInfo = BTButton_And_BTView;
+		};
+		E1AC14DBD34E8D230407AFB9873C8982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E743039E2A611918D7584FBC0B7617;
+			remoteInfo = "BubbleListView-BubbleListView";
+		};
+		F7AE5278EC4C1913F59EC7D3409F4AA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D00EDE06B75079FF739800D5D435FB3;
+			remoteInfo = PureLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00986F89DA7E626E67B0C16BA4C5D2FB /* ListBubbleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ListBubbleView.m; path = BubbleListView/Classes/ListBubbleView.m; sourceTree = "<group>"; };
+		0E65DB44090EFB4675B7AD9BF3BC405F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		12C4F40278BBB29767465EF56EFCA7F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		130A6718EA480DD76981F58D98C42768 /* Pods-BubbleListView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BubbleListView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		13DCE45A6F75C202435DC652CAB36531 /* BubbleListView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = BubbleListView.bundle; path = "BubbleListView-BubbleListView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C3DF54B48ADBDFAE98045E31DCCE1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		160B8D82114BB8B753A64F82ECB8D75D /* PureLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-prefix.pch"; sourceTree = "<group>"; };
+		1871EE8609EF2DAB28AE3C1C6FCAD10D /* Pods-BubbleListView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BubbleListView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1924658E5F85B8656F57D3F242094DDA /* BubbleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BubbleView.h; path = BubbleListView/Classes/BubbleView.h; sourceTree = "<group>"; };
+		1ADC5840BFAF657D6EC1629CE36D8301 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CED4EF07E395998E625D263177513DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E343CAD59AB038DD67258CA8F86F118 /* ListStaticBubbleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ListStaticBubbleView.h; path = BubbleListView/Classes/ListStaticBubbleView.h; sourceTree = "<group>"; };
+		1FED55B9890F2AE4796D2585129B7B7D /* ListDynamicBubbleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ListDynamicBubbleView.m; path = BubbleListView/Classes/ListDynamicBubbleView.m; sourceTree = "<group>"; };
+		23B02E5FEC05FB040A929D4F11CA4910 /* ChildListDynamicBubbleViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChildListDynamicBubbleViewManager.m; path = BubbleListView/Classes/ChildListDynamicBubbleViewManager.m; sourceTree = "<group>"; };
+		243D9A5EB1579616C0101A211E848B9C /* Ring.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Ring.h; sourceTree = "<group>"; };
+		27E9DF56706D36A67EE142090D929A65 /* SVPullToRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVPullToRefresh.h; path = SVPullToRefresh/SVPullToRefresh.h; sourceTree = "<group>"; };
+		28DB69530A9FE30AA5E8F12A356FFB0B /* BubbleListView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BubbleListView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		29B982774D099456C47A3F86A35EE00A /* PureLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureLayout-dummy.m"; sourceTree = "<group>"; };
+		29D8A18CF07B93600637D3125363623E /* PureLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PureLayout-umbrella.h"; sourceTree = "<group>"; };
+		2B4CF7EEF73B211760C500062132C0A0 /* Easing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Easing.m; sourceTree = "<group>"; };
+		2D3D7B219E52AC6203D2227D4F1DB398 /* MyFaveButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyFaveButton.h; sourceTree = "<group>"; };
+		30B73FD75A12E9A7AE7944811AA57F30 /* Spark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Spark.h; sourceTree = "<group>"; };
+		3129E2FEDDCAFD7344A1B5306ECE9A24 /* Pods-BubbleListView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BubbleListView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		326C4A81EAEAFFC47965477101F92643 /* BubbleListView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BubbleListView.modulemap; sourceTree = "<group>"; };
+		32E24E35FCD3E63E7524A69744A6BFE7 /* Pods-BubbleListView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BubbleListView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		32F93FDD57030A73425C5E55A7391EB2 /* ChildListStaticBubbleViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChildListStaticBubbleViewManager.h; path = BubbleListView/Classes/ChildListStaticBubbleViewManager.h; sourceTree = "<group>"; };
+		332CD0EDA51A6258BD1554BBB37C6260 /* BTButton_And_BTView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTButton_And_BTView-prefix.pch"; sourceTree = "<group>"; };
+		346B27012266D6D801AB052AE5C9E3EF /* Pods-BubbleListView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BubbleListView_Tests-resources.sh"; sourceTree = "<group>"; };
+		3724FBF1615371DCE040E6C3D680D984 /* BTView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTView.h; path = BTButton_And_BTView/Classes/BTView.h; sourceTree = "<group>"; };
+		38816B21D635A1A5CFBEB52D2A11F540 /* Pods-BubbleListView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BubbleListView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38C04FB473779619E047AEC11E2FB61B /* UIColor+DarkerColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+DarkerColor.h"; path = "BTButton_And_BTView/Classes/UIColor+DarkerColor.h"; sourceTree = "<group>"; };
+		3B3F5FCD8B7C88EF526F13D0F480760E /* Pods-BubbleListView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BubbleListView_Example.modulemap"; sourceTree = "<group>"; };
+		3B7250F94CD80B88E51A589640BE6444 /* Pods-BubbleListView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BubbleListView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3FE07DDE6BC788039F86213CF344B4AE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4190DDC9284CAD8E75B4F6D33BCC0ADA /* SVPullToRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVPullToRefresh.framework; path = SVPullToRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BACECE6F2B9C98759EFFDD3E54908A /* PureLayoutDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayoutDefines.h; path = PureLayout/PureLayout/PureLayoutDefines.h; sourceTree = "<group>"; };
+		44A61FF9CA9F516E345D31A6C2654482 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+PureLayout.m"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		4553A12767C18A6F2A35CC9B3538A3E7 /* ChildListStaticBubbleViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChildListStaticBubbleViewManager.m; path = BubbleListView/Classes/ChildListStaticBubbleViewManager.m; sourceTree = "<group>"; };
+		490F8BEC21BCDBC3771A717D34430353 /* BTButton_And_BTView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTButton_And_BTView-dummy.m"; sourceTree = "<group>"; };
+		492A621BC1117B87D0FD2074C7B474E5 /* PureLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PureLayout.modulemap; sourceTree = "<group>"; };
+		4ACE1008894058326D434253AF1C6FC4 /* ListStaticBubbleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ListStaticBubbleView.m; path = BubbleListView/Classes/ListStaticBubbleView.m; sourceTree = "<group>"; };
+		4C8B95F06F26DB3F0D01525DD797B52B /* BTButton_And_BTView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTButton_And_BTView.framework; path = BTButton_And_BTView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD83BC629559C81E029E0AF0319E5A7 /* Pods-BubbleListView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BubbleListView_Tests-dummy.m"; sourceTree = "<group>"; };
+		4DFC897AB8E72533DBFA13E89ACABB4E /* Pods_BubbleListView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BubbleListView_Tests.framework; path = "Pods-BubbleListView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7DFD52109D38D07A6D5A917ED10EAC /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureLayout.framework; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FA78DC65B7E5493F807FE3911DF6278 /* ResourceBundle-BubbleListView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-BubbleListView-Info.plist"; sourceTree = "<group>"; };
+		50E9F7D3E7594CD2A6296C2ACA5442BF /* BubbleListView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BubbleListView-prefix.pch"; sourceTree = "<group>"; };
+		5130D9D672266DAF8011B93A88214F14 /* ChildListBubbleViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChildListBubbleViewManager.h; path = BubbleListView/Classes/ChildListBubbleViewManager.h; sourceTree = "<group>"; };
+		516CACC04157E9DE7879767A4F57871F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		51EFE4C07B774B24EA02804C9822F696 /* PureLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58612E91A6DDEFBFC648E59FFE08C576 /* ALView+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ALView+PureLayout.h"; path = "PureLayout/PureLayout/ALView+PureLayout.h"; sourceTree = "<group>"; };
+		5E4DD980EDB12A34AD3EFAB4DD81F8E2 /* Pods-BubbleListView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BubbleListView_Example-resources.sh"; sourceTree = "<group>"; };
+		5EE63E1D3D80B584C47E48C10F5D0C84 /* BTButton_And_BTView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTButton_And_BTView.xcconfig; sourceTree = "<group>"; };
+		5F80CD16E5E2810E089C0089AA44324B /* PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PureLayout.h; path = PureLayout/PureLayout/PureLayout.h; sourceTree = "<group>"; };
+		64E542A87184EE0AAD022C4C6B59E260 /* Pods-BubbleListView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BubbleListView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6739272C779069B885D57999EBED0FE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		682F3A3BB1EB5E35CB49208934D48224 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		683A2F25F12C1F43994073EF279BE719 /* ListBubbleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ListBubbleView.xib; path = BubbleListView/Assets/ListBubbleView.xib; sourceTree = "<group>"; };
+		6CDAB1BC6B9379919DC793D198FE08B8 /* BubbleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BubbleView.m; path = BubbleListView/Classes/BubbleView.m; sourceTree = "<group>"; };
+		7268B58070321FBCB316FC10F096B883 /* BTButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTButton.h; path = BTButton_And_BTView/Classes/BTButton.h; sourceTree = "<group>"; };
+		7A3BA488B8AC7059996B9BB645F811F9 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+PureLayout.h"; path = "PureLayout/PureLayout/NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		7D25B8474E41C4F704E2824715DC608D /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+PureLayout.h"; path = "PureLayout/PureLayout/NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		7D5F2651C7D8985C0AFAF2272919C88A /* Pods_BubbleListView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BubbleListView_Example.framework; path = "Pods-BubbleListView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85171DB9D917ED02E470BF242CF9BC9D /* NSArray+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+PureLayout.m"; path = "PureLayout/PureLayout/NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		86211183108246B601FA4D732A5501F0 /* BTButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTButton.m; path = BTButton_And_BTView/Classes/BTButton.m; sourceTree = "<group>"; };
+		892C87FCA5270A9278DCD00F2EF865AC /* Pods-BubbleListView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BubbleListView_Tests.modulemap"; sourceTree = "<group>"; };
+		8B2E13C9986CFD902BD82400F505696F /* BTButton_And_BTView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTButton_And_BTView-umbrella.h"; sourceTree = "<group>"; };
+		8BAD31393687BE8AADE5D28116A4BD2E /* PureLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PureLayout.xcconfig; sourceTree = "<group>"; };
+		8E3A539211DC6E56CB7DBF923EDE2F98 /* SVPullToRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVPullToRefresh.xcconfig; sourceTree = "<group>"; };
+		8EA4A1BF75004C296F4DBEA6EA67F6B6 /* Pods-BubbleListView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BubbleListView_Example-umbrella.h"; sourceTree = "<group>"; };
+		91FC22138B61F98EABF118630C937D81 /* ChildListBubbleViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChildListBubbleViewManager.m; path = BubbleListView/Classes/ChildListBubbleViewManager.m; sourceTree = "<group>"; };
+		924F7D5411066DBDD6C469213263E55E /* SVPullToRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVPullToRefresh-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99155D9E3E1F94BF9CFF31965AFFD72B /* Pods-BubbleListView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BubbleListView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9E9D5E21277F51FB1CB034656BBBCF87 /* Pods-BubbleListView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BubbleListView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A257861085ACDC15FC674B833FCFAC49 /* Easing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Easing.h; sourceTree = "<group>"; };
+		A2AF939E4A392B1377F588200C3567A7 /* ALView+PureLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ALView+PureLayout.m"; path = "PureLayout/PureLayout/ALView+PureLayout.m"; sourceTree = "<group>"; };
+		A3CB48EFF8DBF4F22FAF24F0043F751B /* Ring.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Ring.m; sourceTree = "<group>"; };
+		AAA3F87056BC9CD85215CC6F61D927B7 /* UIColor+DarkerColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+DarkerColor.m"; path = "BTButton_And_BTView/Classes/UIColor+DarkerColor.m"; sourceTree = "<group>"; };
+		B04C8655F9E37350830A5EA90498F0F0 /* BTButton_And_BTView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BTButton_And_BTView.modulemap; sourceTree = "<group>"; };
+		B11577736F2ED6F00F93AE5E887AA657 /* ListDynamicBubbleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ListDynamicBubbleView.h; path = BubbleListView/Classes/ListDynamicBubbleView.h; sourceTree = "<group>"; };
+		BBDB74077E7297A3EC1159179D996CEA /* BTView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTView.m; path = BTButton_And_BTView/Classes/BTView.m; sourceTree = "<group>"; };
+		BE05AA13D34C4412A85EB0A85C3C72C4 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SVInfiniteScrolling.h"; path = "SVPullToRefresh/UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
+		BF26A457746C3D521BC9E3C489695B5F /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SVPullToRefresh.h"; path = "SVPullToRefresh/UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
+		BFB47E77598DB56D53F63547695A51DF /* MyFaveButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyFaveButton.m; sourceTree = "<group>"; };
+		C413E4E13E86DB5BD174F5F75F648627 /* Pods-BubbleListView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BubbleListView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C827982EB080C2351055EFDBB36ADFF8 /* Spark.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Spark.m; sourceTree = "<group>"; };
+		CA245B2F35F1A9683ECA00FB22809087 /* ChildListDynamicBubbleViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChildListDynamicBubbleViewManager.h; path = BubbleListView/Classes/ChildListDynamicBubbleViewManager.h; sourceTree = "<group>"; };
+		CE668AC74C6BA502D6023787A111E64C /* ListBubbleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ListBubbleView.h; path = BubbleListView/Classes/ListBubbleView.h; sourceTree = "<group>"; };
+		D1C42A82AED58146F632AA6EABBF4DBA /* BubbleListView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BubbleListView-umbrella.h"; sourceTree = "<group>"; };
+		D323A7351251AD3D488017B43D95AD26 /* PureLayout+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PureLayout+Internal.h"; path = "PureLayout/PureLayout/PureLayout+Internal.h"; sourceTree = "<group>"; };
+		D3629C0BAB195D283DE64764EE780621 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SVInfiniteScrolling.m"; path = "SVPullToRefresh/UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
+		D66334A09C117604C448B04DA7821CA5 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SVPullToRefresh.m"; path = "SVPullToRefresh/UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
+		D821D389B91B80F5E46012B107BF9E71 /* SVPullToRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVPullToRefresh-umbrella.h"; sourceTree = "<group>"; };
+		DA1DA88C67A47FBE226C40F431F9EF44 /* BubbleListView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BubbleListView.xcconfig; sourceTree = "<group>"; };
+		DED81B84DC1F579DD258A90B644ED360 /* Pods-BubbleListView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BubbleListView_Example-dummy.m"; sourceTree = "<group>"; };
+		E4987A2E8DAE078ECF8FC1A6032135B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A890F3CB44BA59BABA30EA0BFA4619 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E88FB980F39D432A58EB326549982C96 /* BubbleListView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BubbleListView-dummy.m"; sourceTree = "<group>"; };
+		ED5C2E730BDAD27E4DD95065AADCC95B /* SVPullToRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVPullToRefresh-prefix.pch"; sourceTree = "<group>"; };
+		F0B7849F8E38C6B6D538844369CA3BAF /* Pods-BubbleListView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BubbleListView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1ADAAF84A15E6DDCC5FB390C4203ED1 /* BubbleListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BubbleListView.framework; path = BubbleListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6B5B52DAD6B51336B1BCE98191B0842 /* BTButton_And_BTView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BTButton_And_BTView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83CF05050423B6F2BF6A15600FAD311 /* SVPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVPullToRefresh.modulemap; sourceTree = "<group>"; };
+		FDAC4A25B4868FBD5093A73AFA1B0031 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F2BFCE0C3CA4C71B6733AE0 /* RNBubbleListView.xcodeproj */ = {isa = PBXFileReference; name = "RNBubbleListView.xcodeproj"; path = "../../../node_modules/react-native-bubble-list-view/ios/RNBubbleListView.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		F34CF87188A44CC9A7DAAE6F /* libRNBubbleListView.a */ = {isa = PBXFileReference; name = "libRNBubbleListView.a"; path = "libRNBubbleListView.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		2D1E8BBDE2AD400E93617842 /* RNMyLibrary.xcodeproj */ = {isa = PBXFileReference; name = "RNMyLibrary.xcodeproj"; path = "../../../node_modules/react-native-my-library/ios/RNMyLibrary.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		3ECF783B4D7F49C4BF12A1EC /* libRNMyLibrary.a */ = {isa = PBXFileReference; name = "libRNMyLibrary.a"; path = "libRNMyLibrary.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		19E19DEC9962407681B90BB4 /* RCTCustomModule.xcodeproj */ = {isa = PBXFileReference; name = "RCTCustomModule.xcodeproj"; path = "../../../node_modules/react-native-custom-module/ios/RCTCustomModule.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		A6B3C87458EA407792A6EEC0 /* libRCTCustomModule.a */ = {isa = PBXFileReference; name = "libRCTCustomModule.a"; path = "libRCTCustomModule.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EB2082197EF46E5F06B62D0496738B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97304570F590353697875F7F6283B842 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60B1708255C60240E4A4E32F9659324D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA4C0397F9D5C8F4799F7F13547694EE /* Foundation.framework in Frameworks */,
+				C5DBF8FBA6FECAD45007CA545B9FB1ED /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8FEE7C9EB1764DB6590119E4576BD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6629B51515DFCB62B86D5B668BBAAE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D59C3A87FF43354F563B50E3430FF959 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C8F0523773EA0FA56FC539880B17CF /* Foundation.framework in Frameworks */,
+				75FE902AC9354F18B520072E /* libRNBubbleListView.a in Frameworks */,
+				E3BB9064247F4ED38188EF97 /* libRNMyLibrary.a in Frameworks */,
+				7BBCAB831E354B6884ADD91E /* libRCTCustomModule.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF43129F0F3AB40188C2F048A901AE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70FF6E67F08D9609DC18E0DA2C4F80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF5249F9E5157D2E978CB7C6C948066 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F84219C5E192ECA49B8769EB743F201E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03203A223C49BFCE4C0FD79F9C6B5B93 /* BTButton_And_BTView.framework in Frameworks */,
+				C8304FFAEBCED76136FD62639AF3A744 /* Foundation.framework in Frameworks */,
+				BC8141C8EB67989A440AE89E9DF9ED98 /* PureLayout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045E27CC281503A9578303CC101B64C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70DB9EAFB8031EF35CB62B34F2ED4A00 /* BTButton_And_BTView */,
+				824452A06890581632225A16B95F517D /* PureLayout */,
+				0DC86CBA70048A8F5507E94CC13EEB2B /* SVPullToRefresh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0A34D35FF78400420D29546B704ACD0B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				516CACC04157E9DE7879767A4F57871F /* Foundation.framework */,
+				E4A890F3CB44BA59BABA30EA0BFA4619 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0DC86CBA70048A8F5507E94CC13EEB2B /* SVPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				27E9DF56706D36A67EE142090D929A65 /* SVPullToRefresh.h */,
+				BE05AA13D34C4412A85EB0A85C3C72C4 /* UIScrollView+SVInfiniteScrolling.h */,
+				D3629C0BAB195D283DE64764EE780621 /* UIScrollView+SVInfiniteScrolling.m */,
+				BF26A457746C3D521BC9E3C489695B5F /* UIScrollView+SVPullToRefresh.h */,
+				D66334A09C117604C448B04DA7821CA5 /* UIScrollView+SVPullToRefresh.m */,
+				E967F1B1F4A6DECA4968C3D4872CA65C /* Support Files */,
+			);
+			name = SVPullToRefresh;
+			path = SVPullToRefresh;
+			sourceTree = "<group>";
+		};
+		137E7B1134D9757DFD4051F2D06F49FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDAC4A25B4868FBD5093A73AFA1B0031 /* Info.plist */,
+				492A621BC1117B87D0FD2074C7B474E5 /* PureLayout.modulemap */,
+				8BAD31393687BE8AADE5D28116A4BD2E /* PureLayout.xcconfig */,
+				29B982774D099456C47A3F86A35EE00A /* PureLayout-dummy.m */,
+				160B8D82114BB8B753A64F82ECB8D75D /* PureLayout-prefix.pch */,
+				29D8A18CF07B93600637D3125363623E /* PureLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PureLayout";
+			sourceTree = "<group>";
+		};
+		24CF0E945309FE5DC53F0F2EFA99F475 /* Pods-BubbleListView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				682F3A3BB1EB5E35CB49208934D48224 /* Info.plist */,
+				892C87FCA5270A9278DCD00F2EF865AC /* Pods-BubbleListView_Tests.modulemap */,
+				3B7250F94CD80B88E51A589640BE6444 /* Pods-BubbleListView_Tests-acknowledgements.markdown */,
+				3129E2FEDDCAFD7344A1B5306ECE9A24 /* Pods-BubbleListView_Tests-acknowledgements.plist */,
+				4DD83BC629559C81E029E0AF0319E5A7 /* Pods-BubbleListView_Tests-dummy.m */,
+				9E9D5E21277F51FB1CB034656BBBCF87 /* Pods-BubbleListView_Tests-frameworks.sh */,
+				346B27012266D6D801AB052AE5C9E3EF /* Pods-BubbleListView_Tests-resources.sh */,
+				64E542A87184EE0AAD022C4C6B59E260 /* Pods-BubbleListView_Tests-umbrella.h */,
+				130A6718EA480DD76981F58D98C42768 /* Pods-BubbleListView_Tests.debug.xcconfig */,
+				32E24E35FCD3E63E7524A69744A6BFE7 /* Pods-BubbleListView_Tests.release.xcconfig */,
+			);
+			name = "Pods-BubbleListView_Tests";
+			path = "Target Support Files/Pods-BubbleListView_Tests";
+			sourceTree = "<group>";
+		};
+		30644B90C061B646388F90166AA75BFD /* BubbleListView */ = {
+			isa = PBXGroup;
+			children = (
+				1924658E5F85B8656F57D3F242094DDA /* BubbleView.h */,
+				6CDAB1BC6B9379919DC793D198FE08B8 /* BubbleView.m */,
+				5130D9D672266DAF8011B93A88214F14 /* ChildListBubbleViewManager.h */,
+				91FC22138B61F98EABF118630C937D81 /* ChildListBubbleViewManager.m */,
+				CA245B2F35F1A9683ECA00FB22809087 /* ChildListDynamicBubbleViewManager.h */,
+				23B02E5FEC05FB040A929D4F11CA4910 /* ChildListDynamicBubbleViewManager.m */,
+				32F93FDD57030A73425C5E55A7391EB2 /* ChildListStaticBubbleViewManager.h */,
+				4553A12767C18A6F2A35CC9B3538A3E7 /* ChildListStaticBubbleViewManager.m */,
+				CE668AC74C6BA502D6023787A111E64C /* ListBubbleView.h */,
+				00986F89DA7E626E67B0C16BA4C5D2FB /* ListBubbleView.m */,
+				B11577736F2ED6F00F93AE5E887AA657 /* ListDynamicBubbleView.h */,
+				1FED55B9890F2AE4796D2585129B7B7D /* ListDynamicBubbleView.m */,
+				1E343CAD59AB038DD67258CA8F86F118 /* ListStaticBubbleView.h */,
+				4ACE1008894058326D434253AF1C6FC4 /* ListStaticBubbleView.m */,
+				CDB548FF59A0FFAC9484040906D887F6 /* MyFaveButton */,
+				C90FA02708F8337F0B8BF76124A3AAFA /* Pod */,
+				E79A9B0744BC6C6DD8950175A6CFC8ED /* Resources */,
+				33D21E546EA7B1B2740584E5D4DE0EB5 /* Support Files */,
+			);
+			name = BubbleListView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		33D21E546EA7B1B2740584E5D4DE0EB5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				326C4A81EAEAFFC47965477101F92643 /* BubbleListView.modulemap */,
+				DA1DA88C67A47FBE226C40F431F9EF44 /* BubbleListView.xcconfig */,
+				E88FB980F39D432A58EB326549982C96 /* BubbleListView-dummy.m */,
+				50E9F7D3E7594CD2A6296C2ACA5442BF /* BubbleListView-prefix.pch */,
+				D1C42A82AED58146F632AA6EABBF4DBA /* BubbleListView-umbrella.h */,
+				1CED4EF07E395998E625D263177513DF /* Info.plist */,
+				4FA78DC65B7E5493F807FE3911DF6278 /* ResourceBundle-BubbleListView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BubbleListView";
+			sourceTree = "<group>";
+		};
+		388D2114E416615E7EB6782BEF7ECDC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C8B95F06F26DB3F0D01525DD797B52B /* BTButton_And_BTView.framework */,
+				13DCE45A6F75C202435DC652CAB36531 /* BubbleListView.bundle */,
+				F1ADAAF84A15E6DDCC5FB390C4203ED1 /* BubbleListView.framework */,
+				7D5F2651C7D8985C0AFAF2272919C88A /* Pods_BubbleListView_Example.framework */,
+				4DFC897AB8E72533DBFA13E89ACABB4E /* Pods_BubbleListView_Tests.framework */,
+				4F7DFD52109D38D07A6D5A917ED10EAC /* PureLayout.framework */,
+				4190DDC9284CAD8E75B4F6D33BCC0ADA /* SVPullToRefresh.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		392435631D259130CE117138D809AA22 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2FEB6458514D0D6E75A13B242A09BB8 /* Pods-BubbleListView_Example */,
+				24CF0E945309FE5DC53F0F2EFA99F475 /* Pods-BubbleListView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		70DB9EAFB8031EF35CB62B34F2ED4A00 /* BTButton_And_BTView */ = {
+			isa = PBXGroup;
+			children = (
+				7268B58070321FBCB316FC10F096B883 /* BTButton.h */,
+				86211183108246B601FA4D732A5501F0 /* BTButton.m */,
+				3724FBF1615371DCE040E6C3D680D984 /* BTView.h */,
+				BBDB74077E7297A3EC1159179D996CEA /* BTView.m */,
+				38C04FB473779619E047AEC11E2FB61B /* UIColor+DarkerColor.h */,
+				AAA3F87056BC9CD85215CC6F61D927B7 /* UIColor+DarkerColor.m */,
+				9E157D37537C9A5A95FEA72E54EE9C91 /* Support Files */,
+			);
+			name = BTButton_And_BTView;
+			path = BTButton_And_BTView;
+			sourceTree = "<group>";
+		};
+		70F993DCACB88F33F5353B404E8AFFAC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A257861085ACDC15FC674B833FCFAC49 /* Easing.h */,
+				2B4CF7EEF73B211760C500062132C0A0 /* Easing.m */,
+			);
+			name = Helpers;
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C3D77B3094CA296BC92256883EF7C601 /* Development Pods */,
+				9E50309A9051662187A9D70C629CD9A0 /* Frameworks */,
+				045E27CC281503A9578303CC101B64C2 /* Pods */,
+				388D2114E416615E7EB6782BEF7ECDC4 /* Products */,
+				392435631D259130CE117138D809AA22 /* Targets Support Files */,
+				BE6A04EE9009411FA5D333E1 /* Libraries */,
+			);
+			sourceTree = "<group>";
+		};
+		824452A06890581632225A16B95F517D /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				58612E91A6DDEFBFC648E59FFE08C576 /* ALView+PureLayout.h */,
+				A2AF939E4A392B1377F588200C3567A7 /* ALView+PureLayout.m */,
+				7A3BA488B8AC7059996B9BB645F811F9 /* NSArray+PureLayout.h */,
+				85171DB9D917ED02E470BF242CF9BC9D /* NSArray+PureLayout.m */,
+				7D25B8474E41C4F704E2824715DC608D /* NSLayoutConstraint+PureLayout.h */,
+				44A61FF9CA9F516E345D31A6C2654482 /* NSLayoutConstraint+PureLayout.m */,
+				5F80CD16E5E2810E089C0089AA44324B /* PureLayout.h */,
+				D323A7351251AD3D488017B43D95AD26 /* PureLayout+Internal.h */,
+				42BACECE6F2B9C98759EFFDD3E54908A /* PureLayoutDefines.h */,
+				137E7B1134D9757DFD4051F2D06F49FE /* Support Files */,
+			);
+			name = PureLayout;
+			path = PureLayout;
+			sourceTree = "<group>";
+		};
+		9E157D37537C9A5A95FEA72E54EE9C91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B04C8655F9E37350830A5EA90498F0F0 /* BTButton_And_BTView.modulemap */,
+				5EE63E1D3D80B584C47E48C10F5D0C84 /* BTButton_And_BTView.xcconfig */,
+				490F8BEC21BCDBC3771A717D34430353 /* BTButton_And_BTView-dummy.m */,
+				332CD0EDA51A6258BD1554BBB37C6260 /* BTButton_And_BTView-prefix.pch */,
+				8B2E13C9986CFD902BD82400F505696F /* BTButton_And_BTView-umbrella.h */,
+				E4987A2E8DAE078ECF8FC1A6032135B0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BTButton_And_BTView";
+			sourceTree = "<group>";
+		};
+		9E50309A9051662187A9D70C629CD9A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6B5B52DAD6B51336B1BCE98191B0842 /* BTButton_And_BTView.framework */,
+				51EFE4C07B774B24EA02804C9822F696 /* PureLayout.framework */,
+				0A34D35FF78400420D29546B704ACD0B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3D77B3094CA296BC92256883EF7C601 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30644B90C061B646388F90166AA75BFD /* BubbleListView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C90FA02708F8337F0B8BF76124A3AAFA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				28DB69530A9FE30AA5E8F12A356FFB0B /* BubbleListView.podspec */,
+				3FE07DDE6BC788039F86213CF344B4AE /* LICENSE */,
+				12C4F40278BBB29767465EF56EFCA7F2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CDB548FF59A0FFAC9484040906D887F6 /* MyFaveButton */ = {
+			isa = PBXGroup;
+			children = (
+				15C3DF54B48ADBDFAE98045E31DCCE1F /* LICENSE */,
+				2D3D7B219E52AC6203D2227D4F1DB398 /* MyFaveButton.h */,
+				BFB47E77598DB56D53F63547695A51DF /* MyFaveButton.m */,
+				0E65DB44090EFB4675B7AD9BF3BC405F /* README.md */,
+				243D9A5EB1579616C0101A211E848B9C /* Ring.h */,
+				A3CB48EFF8DBF4F22FAF24F0043F751B /* Ring.m */,
+				30B73FD75A12E9A7AE7944811AA57F30 /* Spark.h */,
+				C827982EB080C2351055EFDBB36ADFF8 /* Spark.m */,
+				70F993DCACB88F33F5353B404E8AFFAC /* Helpers */,
+			);
+			name = MyFaveButton;
+			path = BubbleListView/Classes/MyFaveButton;
+			sourceTree = "<group>";
+		};
+		E79A9B0744BC6C6DD8950175A6CFC8ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				683A2F25F12C1F43994073EF279BE719 /* ListBubbleView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E967F1B1F4A6DECA4968C3D4872CA65C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1ADC5840BFAF657D6EC1629CE36D8301 /* Info.plist */,
+				F83CF05050423B6F2BF6A15600FAD311 /* SVPullToRefresh.modulemap */,
+				8E3A539211DC6E56CB7DBF923EDE2F98 /* SVPullToRefresh.xcconfig */,
+				924F7D5411066DBDD6C469213263E55E /* SVPullToRefresh-dummy.m */,
+				ED5C2E730BDAD27E4DD95065AADCC95B /* SVPullToRefresh-prefix.pch */,
+				D821D389B91B80F5E46012B107BF9E71 /* SVPullToRefresh-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVPullToRefresh";
+			sourceTree = "<group>";
+		};
+		F2FEB6458514D0D6E75A13B242A09BB8 /* Pods-BubbleListView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6739272C779069B885D57999EBED0FE7 /* Info.plist */,
+				3B3F5FCD8B7C88EF526F13D0F480760E /* Pods-BubbleListView_Example.modulemap */,
+				38816B21D635A1A5CFBEB52D2A11F540 /* Pods-BubbleListView_Example-acknowledgements.markdown */,
+				F0B7849F8E38C6B6D538844369CA3BAF /* Pods-BubbleListView_Example-acknowledgements.plist */,
+				DED81B84DC1F579DD258A90B644ED360 /* Pods-BubbleListView_Example-dummy.m */,
+				C413E4E13E86DB5BD174F5F75F648627 /* Pods-BubbleListView_Example-frameworks.sh */,
+				5E4DD980EDB12A34AD3EFAB4DD81F8E2 /* Pods-BubbleListView_Example-resources.sh */,
+				8EA4A1BF75004C296F4DBEA6EA67F6B6 /* Pods-BubbleListView_Example-umbrella.h */,
+				1871EE8609EF2DAB28AE3C1C6FCAD10D /* Pods-BubbleListView_Example.debug.xcconfig */,
+				99155D9E3E1F94BF9CFF31965AFFD72B /* Pods-BubbleListView_Example.release.xcconfig */,
+			);
+			name = "Pods-BubbleListView_Example";
+			path = "Target Support Files/Pods-BubbleListView_Example";
+			sourceTree = "<group>";
+		};
+		BE6A04EE9009411FA5D333E1 /* Libraries */ = {
+			isa = "PBXGroup";
+			children = (
+				7F2BFCE0C3CA4C71B6733AE0 /* RNBubbleListView.xcodeproj */,
+				2D1E8BBDE2AD400E93617842 /* RNMyLibrary.xcodeproj */,
+				19E19DEC9962407681B90BB4 /* RCTCustomModule.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		34AEE5335ECFE48D6F8B9FA5E59CD549 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3952AF7B3FF6EEF4A7239A6E9BED68AA /* Pods-BubbleListView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FB13D2CBE22E46AA604BEEB5C8F9529 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D784563260740245CE6B8D06CF867184 /* BubbleListView-umbrella.h in Headers */,
+				16136940C8424853407FD6EE62C96D6D /* BubbleView.h in Headers */,
+				A8272F02858FDDB84FFAC51638D0CA1D /* ChildListBubbleViewManager.h in Headers */,
+				A2C9D02A133E7B5727BA8E7A69E7C54A /* ChildListDynamicBubbleViewManager.h in Headers */,
+				9BE027A0089B88B4133E3C5EF45C91A4 /* ChildListStaticBubbleViewManager.h in Headers */,
+				FC942275CA516CBDA2534F8B328E0BBF /* Easing.h in Headers */,
+				C39CB82F4361C2AF2DECA86508FD94CA /* ListBubbleView.h in Headers */,
+				BD84D81E399457D8602682AC924507C7 /* ListDynamicBubbleView.h in Headers */,
+				03C0EF6026368F606BCC459DDDAB6D14 /* ListStaticBubbleView.h in Headers */,
+				B622B71EADC0F2459B3257FAB00C14BF /* MyFaveButton.h in Headers */,
+				AAC3F980E2910F6411B83A156EAB7238 /* Ring.h in Headers */,
+				16BBF353D294A8AE2F0C75BD3B6596D0 /* Spark.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7526810DA99F4D98A7BB93EFFE115FE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43D7D91B1D02B4C488623E9F90A6EB9F /* ALView+PureLayout.h in Headers */,
+				A03251EFCA6D66A9D5C4AB2F33FE2FA0 /* NSArray+PureLayout.h in Headers */,
+				86E3CB0512FA7D6752144DB2843C3D7A /* NSLayoutConstraint+PureLayout.h in Headers */,
+				CC55C3DAFFF54BA4A766C308A164778C /* PureLayout+Internal.h in Headers */,
+				CDB381BEEC94322CD415A14CE6025628 /* PureLayout-umbrella.h in Headers */,
+				47D2F73EA633EA1572F2D5C9074DF047 /* PureLayout.h in Headers */,
+				B21801B5C5C0A7150E1F31B151254473 /* PureLayoutDefines.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C815224F3F5F2970CC66DDE726279E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41CD4D132960F2854E46BB135A59827B /* BTButton.h in Headers */,
+				33C757DB06BAEDA91E2F00459ED2C390 /* BTButton_And_BTView-umbrella.h in Headers */,
+				2CA6F211821C0F62BD444F0DF157F0C1 /* BTView.h in Headers */,
+				F5DB078E9DFEA253BD41CF67471F518E /* UIColor+DarkerColor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83B66A74EF4BFCD801F12A7320B2B5BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F2222BA0D55561BAEF7B65C1105DD2 /* SVPullToRefresh-umbrella.h in Headers */,
+				9E332026CF0BB22E2F00972983380A0A /* SVPullToRefresh.h in Headers */,
+				CF5C6B4010EB1C311E11057B92EF6312 /* UIScrollView+SVInfiniteScrolling.h in Headers */,
+				DAE5C70FC7F283E8750EBA8A18422757 /* UIScrollView+SVPullToRefresh.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86BADACD53731A43336751BFCE821D3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				854F9371181F604F65FBCD184421F375 /* Pods-BubbleListView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		40E743039E2A611918D7584FBC0B7617 /* BubbleListView-BubbleListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B6C547F697125D3BD2B42E785C6F901 /* Build configuration list for PBXNativeTarget "BubbleListView-BubbleListView" */;
+			buildPhases = (
+				678C6E09DF9D53DBA4F5F637B335C25C /* Sources */,
+				DF43129F0F3AB40188C2F048A901AE45 /* Frameworks */,
+				06A4F377CD6CACB916BC3B38007DDAA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BubbleListView-BubbleListView";
+			productName = "BubbleListView-BubbleListView";
+			productReference = 13DCE45A6F75C202435DC652CAB36531 /* BubbleListView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		46B42CC8B395CBFF22B05247F4E9C562 /* BubbleListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF009ECC76B33120B78308FFE87B646B /* Build configuration list for PBXNativeTarget "BubbleListView" */;
+			buildPhases = (
+				4FE8ACC38C8BA4021BCFA3C7A2163136 /* Sources */,
+				F84219C5E192ECA49B8769EB743F201E /* Frameworks */,
+				46621DF670FCAAE4DEF85CFEA27C16A7 /* Resources */,
+				6FB13D2CBE22E46AA604BEEB5C8F9529 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADC235BA8DAEB7AFC333CA065A3315E0 /* PBXTargetDependency */,
+				7D9E4A4CA895A0D598191217CCCBCC5C /* PBXTargetDependency */,
+				8665AFE82B7F969F884B78A65B902834 /* PBXTargetDependency */,
+			);
+			name = BubbleListView;
+			productName = BubbleListView;
+			productReference = F1ADAAF84A15E6DDCC5FB390C4203ED1 /* BubbleListView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5D00EDE06B75079FF739800D5D435FB3 /* PureLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1266DDF4F9E7325DCEA836F7F35E90E9 /* Build configuration list for PBXNativeTarget "PureLayout" */;
+			buildPhases = (
+				F007D1D3EA75ACC6BB2D6CE9B9D3A490 /* Sources */,
+				E70FF6E67F08D9609DC18E0DA2C4F80E /* Frameworks */,
+				7526810DA99F4D98A7BB93EFFE115FE6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PureLayout;
+			productName = PureLayout;
+			productReference = 4F7DFD52109D38D07A6D5A917ED10EAC /* PureLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		727ED6D245DD12CF7D80A48B45F82970 /* Pods-BubbleListView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFAA2CCA4B60B6D70F9E2672127D282 /* Build configuration list for PBXNativeTarget "Pods-BubbleListView_Tests" */;
+			buildPhases = (
+				08F9521B2415B047B3C1563A5FDC6262 /* Sources */,
+				C8FEE7C9EB1764DB6590119E4576BD3E /* Frameworks */,
+				86BADACD53731A43336751BFCE821D3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BubbleListView_Tests";
+			productName = "Pods-BubbleListView_Tests";
+			productReference = 4DFC897AB8E72533DBFA13E89ACABB4E /* Pods_BubbleListView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8224104BC19272642CAD066F102405B9 /* Pods-BubbleListView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96A399C73F748068036EBDA2A44EEA5 /* Build configuration list for PBXNativeTarget "Pods-BubbleListView_Example" */;
+			buildPhases = (
+				D1F43DF572313280B2B1C954B5FF0893 /* Sources */,
+				5EB2082197EF46E5F06B62D0496738B5 /* Frameworks */,
+				34AEE5335ECFE48D6F8B9FA5E59CD549 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA84C22AEAC381B2FF07B3136B1D39B8 /* PBXTargetDependency */,
+				EAC488816B2453BE2A27CB3D0E108F35 /* PBXTargetDependency */,
+				6C8E2D9574CEC6B17BD9E22E60CE14AA /* PBXTargetDependency */,
+				CA7174AAD3C35823A6DE5661A0685D21 /* PBXTargetDependency */,
+			);
+			name = "Pods-BubbleListView_Example";
+			productName = "Pods-BubbleListView_Example";
+			productReference = 7D5F2651C7D8985C0AFAF2272919C88A /* Pods_BubbleListView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AEDFCA79F274C1DF023FE7F951C9E1F4 /* SVPullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11E75106A5D27B63A0D9FE5452D9046F /* Build configuration list for PBXNativeTarget "SVPullToRefresh" */;
+			buildPhases = (
+				F1DBAAF2F0F4FF1C45CB8353C2756733 /* Sources */,
+				60B1708255C60240E4A4E32F9659324D /* Frameworks */,
+				83B66A74EF4BFCD801F12A7320B2B5BB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVPullToRefresh;
+			productName = SVPullToRefresh;
+			productReference = 4190DDC9284CAD8E75B4F6D33BCC0ADA /* SVPullToRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB8FF58C2672C83ABFEC69140F752265 /* BTButton_And_BTView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F05D59B7E1D7F25F76D6279E00325B3 /* Build configuration list for PBXNativeTarget "BTButton_And_BTView" */;
+			buildPhases = (
+				E6FB337AE3B0AA93FF31999D43095D22 /* Sources */,
+				D59C3A87FF43354F563B50E3430FF959 /* Frameworks */,
+				7C815224F3F5F2970CC66DDE726279E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTButton_And_BTView;
+			productName = BTButton_And_BTView;
+			productReference = 4C8B95F06F26DB3F0D01525DD797B52B /* BTButton_And_BTView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 930;
+				LastUpgradeCheck = 930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 388D2114E416615E7EB6782BEF7ECDC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB8FF58C2672C83ABFEC69140F752265 /* BTButton_And_BTView */,
+				46B42CC8B395CBFF22B05247F4E9C562 /* BubbleListView */,
+				40E743039E2A611918D7584FBC0B7617 /* BubbleListView-BubbleListView */,
+				8224104BC19272642CAD066F102405B9 /* Pods-BubbleListView_Example */,
+				727ED6D245DD12CF7D80A48B45F82970 /* Pods-BubbleListView_Tests */,
+				5D00EDE06B75079FF739800D5D435FB3 /* PureLayout */,
+				AEDFCA79F274C1DF023FE7F951C9E1F4 /* SVPullToRefresh */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06A4F377CD6CACB916BC3B38007DDAA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3FC2542159758790CE3D9E243F8BF3C /* ListBubbleView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46621DF670FCAAE4DEF85CFEA27C16A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B232DAD82B590CFF0C0097268A8343EF /* BubbleListView.bundle in Resources */,
+				066B7D66EC460E534F52FC837BB61481 /* ListBubbleView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08F9521B2415B047B3C1563A5FDC6262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CBB896C0C6EC70A6F80BCE374CEC85 /* Pods-BubbleListView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FE8ACC38C8BA4021BCFA3C7A2163136 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D3323EA491B4696F83EF1900E61C8E /* BubbleListView-dummy.m in Sources */,
+				1934964613BA728B6E8E1AC65597ABBA /* BubbleView.m in Sources */,
+				4552574B2196677554E47011DF9F6FF8 /* ChildListBubbleViewManager.m in Sources */,
+				4353B59FC7BC489F4B83A8E24ABC27A2 /* ChildListDynamicBubbleViewManager.m in Sources */,
+				1E05FB3D366C358BB87D902D81CE1586 /* ChildListStaticBubbleViewManager.m in Sources */,
+				769A8C37A97DA058FC93B3493F0E47D9 /* Easing.m in Sources */,
+				B9A458044489A55E7B7CD786D63C4B84 /* LICENSE in Sources */,
+				CCA713AF4FC91F750E67060A1C9A093F /* ListBubbleView.m in Sources */,
+				C9CD1D26D06C4925A27ECB9F98B9ACC1 /* ListDynamicBubbleView.m in Sources */,
+				5E326FC7A5D9518E8104A6E000B1838E /* ListStaticBubbleView.m in Sources */,
+				0BC431239929C2AA7846044D5A804264 /* MyFaveButton.m in Sources */,
+				7EDE62C2F35CD03D22AD503CC333BB91 /* README.md in Sources */,
+				0EBF616CAF71844E1A5DB10564D80EDF /* Ring.m in Sources */,
+				BFB1111E653BF34B57873960863E7AFE /* Spark.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		678C6E09DF9D53DBA4F5F637B335C25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F43DF572313280B2B1C954B5FF0893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D91A9D104F51CD45B803881056447CD /* Pods-BubbleListView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FB337AE3B0AA93FF31999D43095D22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90B9D4A0C822FD35F7CDFA149F288E3A /* BTButton.m in Sources */,
+				ABB4EFD28E35A038DD658673160370DB /* BTButton_And_BTView-dummy.m in Sources */,
+				50E22A781CCFA2E3C04942DA7103A55B /* BTView.m in Sources */,
+				A26E1E10C30398D0E85C361E14F08754 /* UIColor+DarkerColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F007D1D3EA75ACC6BB2D6CE9B9D3A490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4438BD965392244D3B46F9554D5A5F /* ALView+PureLayout.m in Sources */,
+				4E3A7927A820FF4CA1E71744CA6ACF2B /* NSArray+PureLayout.m in Sources */,
+				D7FE83C99375B7FA5EAD22407483ADEF /* NSLayoutConstraint+PureLayout.m in Sources */,
+				1F8EE8EBC6A9389D78ACA88AB5171131 /* PureLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DBAAF2F0F4FF1C45CB8353C2756733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66D1C7C38ED9B89506DCE8AC8D92050 /* SVPullToRefresh-dummy.m in Sources */,
+				D1CAA634F7FEA08DBF0ECA00A4D9804E /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+				BA1FD946F2165DCB01A2A7BA15CFF4CF /* UIScrollView+SVPullToRefresh.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C8E2D9574CEC6B17BD9E22E60CE14AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 5D00EDE06B75079FF739800D5D435FB3 /* PureLayout */;
+			targetProxy = 62708E989806A3082FC13BD85B37D720 /* PBXContainerItemProxy */;
+		};
+		7D9E4A4CA895A0D598191217CCCBCC5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "BubbleListView-BubbleListView";
+			target = 40E743039E2A611918D7584FBC0B7617 /* BubbleListView-BubbleListView */;
+			targetProxy = E1AC14DBD34E8D230407AFB9873C8982 /* PBXContainerItemProxy */;
+		};
+		8665AFE82B7F969F884B78A65B902834 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PureLayout;
+			target = 5D00EDE06B75079FF739800D5D435FB3 /* PureLayout */;
+			targetProxy = F7AE5278EC4C1913F59EC7D3409F4AA9 /* PBXContainerItemProxy */;
+		};
+		AA84C22AEAC381B2FF07B3136B1D39B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BTButton_And_BTView;
+			target = EB8FF58C2672C83ABFEC69140F752265 /* BTButton_And_BTView */;
+			targetProxy = 4A7534A360AAF30DD5EB1D00B85CBFFB /* PBXContainerItemProxy */;
+		};
+		ADC235BA8DAEB7AFC333CA065A3315E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BTButton_And_BTView;
+			target = EB8FF58C2672C83ABFEC69140F752265 /* BTButton_And_BTView */;
+			targetProxy = D1DF1789D9AD39C80CAC8EF2E969F439 /* PBXContainerItemProxy */;
+		};
+		CA7174AAD3C35823A6DE5661A0685D21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVPullToRefresh;
+			target = AEDFCA79F274C1DF023FE7F951C9E1F4 /* SVPullToRefresh */;
+			targetProxy = 7FFCD9B8DBC51E76A06978AE230476D6 /* PBXContainerItemProxy */;
+		};
+		EAC488816B2453BE2A27CB3D0E108F35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BubbleListView;
+			target = 46B42CC8B395CBFF22B05247F4E9C562 /* BubbleListView */;
+			targetProxy = 8848E4D411904342AA3EC939453A15E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		002DD20B93EB4EBB0FEB4A3CDE7076E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99155D9E3E1F94BF9CFF31965AFFD72B /* Pods-BubbleListView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BubbleListView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BubbleListView_Example/Pods-BubbleListView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BubbleListView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Pods_BubbleListView_Example\"",
+					"\"$(SRCROOT)/Pods_BubbleListView_Example\"",
+					"\"$(SRCROOT)/Pods_BubbleListView_Example\"",
+				);
+			};
+			name = Release;
+		};
+		01F16BCD360BAE8269430A863433AE73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1DA88C67A47FBE226C40F431F9EF44 /* BubbleListView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BubbleListView/BubbleListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BubbleListView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BubbleListView/BubbleListView.modulemap";
+				PRODUCT_NAME = BubbleListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0472FA386BA837BD17666FA996ABA6BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE63E1D3D80B584C47E48C10F5D0C84 /* BTButton_And_BTView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTButton_And_BTView/BTButton_And_BTView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTButton_And_BTView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BTButton_And_BTView/BTButton_And_BTView.modulemap";
+				PRODUCT_NAME = BTButton_And_BTView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0B21B52A7B86028F5CBAD566A7DC8E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1871EE8609EF2DAB28AE3C1C6FCAD10D /* Pods-BubbleListView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BubbleListView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BubbleListView_Example/Pods-BubbleListView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BubbleListView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Pods_BubbleListView_Example\"",
+					"\"$(SRCROOT)/Pods_BubbleListView_Example\"",
+					"\"$(SRCROOT)/Pods_BubbleListView_Example\"",
+				);
+			};
+			name = Debug;
+		};
+		216BBD92D72F08382FDA707DF21B8743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1DA88C67A47FBE226C40F431F9EF44 /* BubbleListView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BubbleListView";
+				INFOPLIST_FILE = "Target Support Files/BubbleListView/ResourceBundle-BubbleListView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BubbleListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2435BBE106EFD9010A3DC688254EFC49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130A6718EA480DD76981F58D98C42768 /* Pods-BubbleListView_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BubbleListView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BubbleListView_Tests/Pods-BubbleListView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BubbleListView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2A21C66F70E2390D667CB7775D223D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BAD31393687BE8AADE5D28116A4BD2E /* PureLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F0C854BFE1F356F98C02EB12596E44A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1DA88C67A47FBE226C40F431F9EF44 /* BubbleListView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/BubbleListView";
+				INFOPLIST_FILE = "Target Support Files/BubbleListView/ResourceBundle-BubbleListView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = BubbleListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5510F06993759839AFE26C8944A7A7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3A539211DC6E56CB7DBF923EDE2F98 /* SVPullToRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVPullToRefresh/SVPullToRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVPullToRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVPullToRefresh/SVPullToRefresh.modulemap";
+				PRODUCT_NAME = SVPullToRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5AE9AEC9F4FB8A985D5FC2498ACD5F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32E24E35FCD3E63E7524A69744A6BFE7 /* Pods-BubbleListView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BubbleListView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BubbleListView_Tests/Pods-BubbleListView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BubbleListView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66EE7FDCD12DEC10A0F97264078D1FC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3A539211DC6E56CB7DBF923EDE2F98 /* SVPullToRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVPullToRefresh/SVPullToRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVPullToRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVPullToRefresh/SVPullToRefresh.modulemap";
+				PRODUCT_NAME = SVPullToRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CAA7D55708231A2D7726FEECE07187CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BAD31393687BE8AADE5D28116A4BD2E /* PureLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PureLayout/PureLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PureLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PureLayout/PureLayout.modulemap";
+				PRODUCT_NAME = PureLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D539954E5E58C02086319313C2C11224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EE63E1D3D80B584C47E48C10F5D0C84 /* BTButton_And_BTView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTButton_And_BTView/BTButton_And_BTView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTButton_And_BTView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BTButton_And_BTView/BTButton_And_BTView.modulemap";
+				PRODUCT_NAME = BTButton_And_BTView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EBB19B5F06D620B92C6F295EA645D15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1DA88C67A47FBE226C40F431F9EF44 /* BubbleListView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BubbleListView/BubbleListView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BubbleListView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BubbleListView/BubbleListView.modulemap";
+				PRODUCT_NAME = BubbleListView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11E75106A5D27B63A0D9FE5452D9046F /* Build configuration list for PBXNativeTarget "SVPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5510F06993759839AFE26C8944A7A7F1 /* Debug */,
+				66EE7FDCD12DEC10A0F97264078D1FC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1266DDF4F9E7325DCEA836F7F35E90E9 /* Build configuration list for PBXNativeTarget "PureLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAA7D55708231A2D7726FEECE07187CA /* Debug */,
+				2A21C66F70E2390D667CB7775D223D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B6C547F697125D3BD2B42E785C6F901 /* Build configuration list for PBXNativeTarget "BubbleListView-BubbleListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				216BBD92D72F08382FDA707DF21B8743 /* Debug */,
+				3F0C854BFE1F356F98C02EB12596E44A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F05D59B7E1D7F25F76D6279E00325B3 /* Build configuration list for PBXNativeTarget "BTButton_And_BTView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D539954E5E58C02086319313C2C11224 /* Debug */,
+				0472FA386BA837BD17666FA996ABA6BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AFAA2CCA4B60B6D70F9E2672127D282 /* Build configuration list for PBXNativeTarget "Pods-BubbleListView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2435BBE106EFD9010A3DC688254EFC49 /* Debug */,
+				5AE9AEC9F4FB8A985D5FC2498ACD5F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF009ECC76B33120B78308FFE87B646B /* Build configuration list for PBXNativeTarget "BubbleListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01F16BCD360BAE8269430A863433AE73 /* Debug */,
+				EBB19B5F06D620B92C6F295EA645D15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D96A399C73F748068036EBDA2A44EEA5 /* Build configuration list for PBXNativeTarget "Pods-BubbleListView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B21B52A7B86028F5CBAD566A7DC8E99 /* Debug */,
+				002DD20B93EB4EBB0FEB4A3CDE7076E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

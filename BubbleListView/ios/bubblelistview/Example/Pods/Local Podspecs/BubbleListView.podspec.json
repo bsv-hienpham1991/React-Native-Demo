@@ -1,0 +1,37 @@
+{
+  "name": "BubbleListView",
+  "version": "0.1.0",
+  "summary": "A short description of BubbleListView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Hien Pham/BubbleListView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hien Pham": "hienpham@bravesoft.com.vn"
+  },
+  "source": {
+    "git": "https://github.com/Hien Pham/BubbleListView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BubbleListView/Classes/**/*",
+  "resources": "BubbleListView/Assets/*.xib",
+  "resource_bundles": {
+    "BubbleListView": [
+      "BubbleListView/Assets/*.png",
+      "BubbleListView/Assets/*.xib"
+    ]
+  },
+  "dependencies": {
+    "BTButton_And_BTView": [
+      "~> 1.0.1"
+    ],
+    "PureLayout": [
+
+    ]
+  }
+}

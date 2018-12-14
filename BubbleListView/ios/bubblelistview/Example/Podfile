@@ -1,0 +1,14 @@
+use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://bsvframeworks@bitbucket.org/bravesoftvietnam/cocoapods-specs.git'
+
+target 'BubbleListView_Example' do
+  pod 'BubbleListView', :path => '../'
+  pod 'SVPullToRefresh'
+  
+  target 'BubbleListView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ListBubbleView">
+            <connections>
+                <outlet property="container" destination="iN0-l3-epB" id="ccW-SZ-BB5"/>
+                <outlet property="listDynamicBubbleView" destination="FcR-i0-Ufh" id="J7T-Wk-gsb"/>
+                <outlet property="listStaticBubbleView" destination="Ttb-9P-C87" id="p3m-x1-xQU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ttb-9P-C87" customClass="ListStaticBubbleView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="parent" destination="-1" id="GWb-dv-4lV"/>
+                    </connections>
+                </scrollView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FcR-i0-Ufh" customClass="ListDynamicBubbleView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="parent" destination="-1" id="bPx-w1-yod"/>
+                    </connections>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="FcR-i0-Ufh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="JhA-aw-tg1"/>
+                <constraint firstItem="Ttb-9P-C87" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="N6K-L5-xsQ"/>
+                <constraint firstItem="FcR-i0-Ufh" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="NWw-EX-ERx"/>
+                <constraint firstItem="FcR-i0-Ufh" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="bki-55-R3j"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Ttb-9P-C87" secondAttribute="trailing" id="jze-hU-IJ3"/>
+                <constraint firstItem="Ttb-9P-C87" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mNd-38-MC3"/>
+                <constraint firstAttribute="bottom" secondItem="Ttb-9P-C87" secondAttribute="bottom" id="o4L-Nw-45t"/>
+                <constraint firstItem="FcR-i0-Ufh" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="wkp-2V-Wep"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>

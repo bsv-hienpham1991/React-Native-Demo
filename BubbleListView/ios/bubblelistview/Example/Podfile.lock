@@ -1,0 +1,25 @@
+PODS:
+  - BTButton_And_BTView (1.0.1)
+  - BubbleListView (0.1.0):
+    - BTButton_And_BTView (~> 1.0.1)
+    - PureLayout
+  - PureLayout (3.1.4)
+  - SVPullToRefresh (0.4.1)
+
+DEPENDENCIES:
+  - BubbleListView (from `../`)
+  - SVPullToRefresh
+
+EXTERNAL SOURCES:
+  BubbleListView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BTButton_And_BTView: 0d481a9dc7900aa1503b7c126a65450e745cdd31
+  BubbleListView: 6eab5b4694065559c98d5fa0733d101dfdce20e6
+  PureLayout: f08c01b8dec00bb14a1fefa3de4c7d9c265df85e
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+
+PODFILE CHECKSUM: 0ffdd21fb06ee26936b0a3ddc1def693ecf5c84b
+
+COCOAPODS: 1.4.0

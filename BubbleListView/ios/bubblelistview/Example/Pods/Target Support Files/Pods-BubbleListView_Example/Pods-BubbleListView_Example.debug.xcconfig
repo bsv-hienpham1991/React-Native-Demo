@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/BTButton_And_BTView" "${PODS_CONFIGURATION_BUILD_DIR}/BubbleListView" "${PODS_CONFIGURATION_BUILD_DIR}/PureLayout" "${PODS_CONFIGURATION_BUILD_DIR}/SVPullToRefresh"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/BTButton_And_BTView/BTButton_And_BTView.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/BubbleListView/BubbleListView.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/PureLayout/PureLayout.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SVPullToRefresh/SVPullToRefresh.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -framework "BTButton_And_BTView" -framework "BubbleListView" -framework "PureLayout" -framework "SVPullToRefresh"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
